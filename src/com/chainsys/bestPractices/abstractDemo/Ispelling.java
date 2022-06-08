@@ -12,7 +12,8 @@ abstract class Language implements Ispelling{
 	@Override
 	public int wordCount(String senetence) {
 		String [] words =senetence.split(" ");
-		return 0;
+		//System.out.println(words);
+		return 0 ;
 	}
 	
 }
